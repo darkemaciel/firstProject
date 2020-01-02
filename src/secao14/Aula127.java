@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.ProdutoAula127;
-import entidade.ProdutoImportadoAula127;
-import entidade.ProdutoUsadoAula127;
+import model.entidade.ProdutoAula127;
+import model.entidade.ProdutoImportadoAula127;
+import model.entidade.ProdutoUsadoAula127;
 
 public class Aula127 {
 

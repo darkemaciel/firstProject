@@ -2,7 +2,7 @@ package secao10;
 
 import java.util.Scanner;
 
-import entidade.Produto_88;
+import model.entidade.Produto_88;
 
 public class Aula88 {
 

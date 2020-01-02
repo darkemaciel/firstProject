@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import entidade.ReservaAula138;
+import model.entidade.ReservaAula138;
 
 public class Aula138 {
 

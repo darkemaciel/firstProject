@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.Empregado;
+import model.entidade.Empregado;
 
 public class Aula76 {
 

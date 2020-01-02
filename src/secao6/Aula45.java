@@ -3,7 +3,7 @@ package secao6;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.Triangulo;
+import model.entidade.Triangulo;
 
 public class Aula45 {
 

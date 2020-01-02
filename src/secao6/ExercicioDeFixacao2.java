@@ -3,7 +3,7 @@ package secao6;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.Colaborador;
+import model.entidade.Colaborador;
 
 public class ExercicioDeFixacao2 {
 

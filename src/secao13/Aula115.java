@@ -6,10 +6,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.Department;
-import entidade.HourContract;
-import entidade.Worker;
-import entidade.enums.WorkerLevel;
+import model.entidade.Department;
+import model.entidade.HourContract;
+import model.entidade.Worker;
+import model.enums.WorkerLevel;
 
 public class Aula115 {
 

@@ -2,7 +2,8 @@ package secao7;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entidade.Produto;
+
+import model.entidade.Produto;
 
 public class Aula56 {
 	public static void main(String[] args) {

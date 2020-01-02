@@ -6,11 +6,11 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.Client;
-import entidade.OrderAula118;
-import entidade.OrderItem;
-import entidade.Product;
-import entidade.enums.OrderStatus;
+import model.entidade.Client;
+import model.entidade.OrderAula118;
+import model.entidade.OrderItem;
+import model.entidade.Product;
+import model.enums.OrderStatus;
 
 public class Aula118 {
 

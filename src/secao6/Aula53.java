@@ -3,7 +3,7 @@ package secao6;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.ConversaoDollar;
+import model.entidade.ConversaoDollar;
 
 public class Aula53 {
 

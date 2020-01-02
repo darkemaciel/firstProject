@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.PessoaAula130;
-import entidade.PessoaFisicaAula130;
-import entidade.PessoaJuridicaAula130;
+import model.entidade.PessoaAula130;
+import model.entidade.PessoaFisicaAula130;
+import model.entidade.PessoaJuridicaAula130;
 
 public class Aula130 {
 

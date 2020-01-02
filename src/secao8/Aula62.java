@@ -1,7 +1,8 @@
 package secao8;
 
 import java.util.Scanner;
-import entidade.ContaCliente;
+
+import model.entidade.ContaCliente;
 
 public class Aula62 {
 

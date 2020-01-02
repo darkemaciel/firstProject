@@ -1,8 +1,8 @@
 package secao14;
 
-import entidade.Account;
-import entidade.BusinessAccount;
-import entidade.SavingsAccount;
+import model.entidade.Account;
+import model.entidade.BusinessAccount;
+import model.entidade.SavingsAccount;
 
 public class Aula123 {
 

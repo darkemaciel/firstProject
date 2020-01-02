@@ -2,8 +2,8 @@ package secao13;
 
 import java.util.Date;
 
-import entidade.Order;
-import entidade.enums.OrderStatus;
+import model.entidade.Order;
+import model.enums.OrderStatus;
 
 public class Aula112 {
 

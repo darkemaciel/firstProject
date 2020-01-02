@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.FuncionarioAula126;
-import entidade.FuncionarioTerceirizadoAula126;
+import model.entidade.FuncionarioAula126;
+import model.entidade.FuncionarioTerceirizadoAula126;
 
 public class Aula126 {
 

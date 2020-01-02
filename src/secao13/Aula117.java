@@ -3,8 +3,8 @@ package secao13;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import entidade.Comment;
-import entidade.Post;
+import model.entidade.Comment;
+import model.entidade.Post;
 
 public class Aula117 {
 

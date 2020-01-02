@@ -3,7 +3,7 @@ package secao8;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.CadastroAluguel;
+import model.entidade.CadastroAluguel;
 
 public class Aula71 {
 

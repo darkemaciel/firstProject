@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.CirculoAula129;
-import entidade.RetanguloAula129;
-import entidade.ShapeAula129;
-import entidade.enums.Cor;
+import model.entidade.CirculoAula129;
+import model.entidade.RetanguloAula129;
+import model.entidade.ShapeAula129;
+import model.enums.Cor;
 
 public class Aula129 {
 

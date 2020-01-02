@@ -2,7 +2,7 @@ package secao6;
 
 import java.util.Scanner;
 
-import entidade.Retangulo;
+import model.entidade.Retangulo;
 
 public class ExerciciosDeFixação {
 

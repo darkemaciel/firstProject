@@ -1,16 +1,17 @@
 package secao15;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import entidade.ReservaAula138;
+import model.entidade.ReservaAula139;
 
 public class Aula139 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
+		
 		Scanner sc = new Scanner(System.in);
-
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
 		System.out.println("Reserva: ");
@@ -24,7 +25,7 @@ public class Aula139 {
 		if (!checkOut.after(checkIn)) {
 			System.out.println("Erro na reserva: Data de Check-Out precisa ser posterior a data de Check-In.");
 		} else {
-			ReservaAula138 reserva = new ReservaAula138(quarto, checkIn, checkOut);
+			ReservaAula139 reserva = new ReservaAula139(quarto, checkIn, checkOut);
 			System.out.println(reserva);
 
 			System.out.println();
@@ -33,20 +34,14 @@ public class Aula139 {
 			checkIn = sdf.parse(sc.next());
 			System.out.print("Data de check-out (dd/MM/yyyy): ");
 			checkOut = sdf.parse(sc.next());
-
-			Date agora = new Date();
-			if (checkIn.before(agora) || checkOut.before(agora)) {
-				System.out.println("Erro na reserva: Data de atualização é inválida.");
-			} else if (!checkOut.after(checkIn)) {
-				System.out.println("Erro na reserva: Data de Check-Out precisa ser posterior a data de Check-In.");
-
+			
+			String error = reserva.updateDates(checkIn, checkOut);
+			if (error != null) {
+				System.out.println("Erro na reserva: " + error);
 			} else {
-				reserva.updateDates(checkIn, checkOut);
-				System.out.println("Atualização de " + reserva);
+				System.out.println("Atualização de " + error);
 			}
 		}
-
 		sc.close();
 	}
-
 }

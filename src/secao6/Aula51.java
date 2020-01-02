@@ -3,7 +3,7 @@ package secao6;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.Calcular;
+import model.entidade.Calcular;
 
 public class Aula51 {
 

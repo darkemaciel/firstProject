@@ -2,7 +2,8 @@ package secao6;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entidade.Acompanhamento;
+
+import model.entidade.Acompanhamento;
 
 public class ExercicioDeFixacao3 {
 
