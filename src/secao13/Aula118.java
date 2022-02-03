@@ -20,6 +20,7 @@ public class Aula118 {
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
+		// Cadastrando cliente
 		System.out.println("Enter client data:");
 		System.out.print("Name: ");
 		String name = sc.nextLine();
@@ -29,12 +30,12 @@ public class Aula118 {
 		Date birthDate = sdf.parse(sc.next());
 		Client client = new Client(name, email, birthDate);
 
+		// Cadastrando pedido 
 		System.out.println("Enter order data:");
 		System.out.print("Status: ");
-		OrderStatus status = OrderStatus.valueOf(sc.next());
+		OrderAula118 order = new OrderAula118(new Date(), OrderStatus.valueOf(sc.next()), client);
 
-		OrderAula118 order = new OrderAula118(new Date(), status, client);
-
+		// Cadastrando item no pedido
 		System.out.print("How many items to this order? ");
 		int n = sc.nextInt();
 		for (int i = 1; i <= n; i++) {

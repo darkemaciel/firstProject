@@ -28,8 +28,7 @@ public class Aula115 {
 		String workerLevel = sc.nextLine();
 		System.out.print("Base salary: ");
 		double baseSalary = sc.nextDouble();
-		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary,
-				new Department(departmentName));
+		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
 
 		System.out.println("How many contracts to this worker? ");
 		int n = sc.nextInt();
