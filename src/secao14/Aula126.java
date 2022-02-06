@@ -22,7 +22,7 @@ public class Aula126 {
 
 		for (int i = 1; i <= n; i++) {
 			System.out.println("Dados do empregado #" + i);
-			System.out.println("É terceirizado? (y/n)");
+			System.out.print("É terceirizado (y/n)? ");
 			char x = sc.next().charAt(0);
 			sc.nextLine();
 			System.out.print("Nome: ");
@@ -42,7 +42,7 @@ public class Aula126 {
 				FuncionarioAula126 emp = new FuncionarioAula126(name, hours, valuePerHour);
 				list.add(emp);
 			}
-			
+			System.out.println();
 		}
 
 		System.out.println();
