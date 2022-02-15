@@ -38,16 +38,19 @@ public class Aula127 {
 			if (a == 'c') {
 				list.add(new ProdutoAula127(nome, preco));
 
-			} else if (a == 'u') { // Criando um produto usado e adicionando a lista
+			} 
+			// Criando um produto usado e adicionando a lista
+			else if (a == 'u') { 
 				System.out.print("Data de fabricação (dd/mm/yyyy): ");
 				Date dataProducao = sdf.parse(sc.next());
 				list.add(new ProdutoUsadoAula127(nome, preco, dataProducao));
 
-			} else { // Criando um produto importado e adicionando a lista
+			} 
+			// Criando um produto importado e adicionando a lista
+			else { 
 				System.out.print("Taxa (%): ");
 				int taxa = sc.nextInt();
 				list.add(new ProdutoImportadoAula127(nome, preco, taxa));
-
 			}
 		}
 

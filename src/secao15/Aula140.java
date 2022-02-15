@@ -48,6 +48,9 @@ public class Aula140 {
 		catch (InputMismatchException e) {
 			System.out.println("Número do quarto inválido.");
 		}
+		catch (RuntimeException e) {
+			System.out.println("Erro inesperado.");
+		}
 		
 		sc.close();
 	}
