@@ -8,7 +8,7 @@ public class Aula175 {
 
 	public static void main(String[] args) {
 
-		File file = new File("C:\\Users\\darke.rangel\\Documents\\test.txt");
+		File file = new File("c:\\Users\\Darke\\Documents\\in.txt");
 		Scanner sc = null;
 		try {
 			sc = new Scanner(file);

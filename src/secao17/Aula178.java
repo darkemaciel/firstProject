@@ -10,10 +10,10 @@ public class Aula178 {
 
 		String[] lines = new String[] { "Good morning", "Good afternoon", "Good night" };
 
-		String path = "C:\\Users\\darke.rangel\\Documents\\out.txt";
+		String path = "c:\\Users\\Darke\\Documents\\out.txt";
 
-	// adcionando o parâmetro "true", somente adiciona no arquivo criado as novas informações, ao invés de recria-lo.
-		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
+	// adcionando o parâmetro "true" no FileWriter adiciona no arquivo criado as novas informações ao invés de recria-lo.
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path))) {
 			for (String line : lines) {
 				bw.write(line);
 				bw.newLine();

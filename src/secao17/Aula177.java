@@ -8,7 +8,7 @@ public class Aula177 {
 
 	public static void main(String[] args) {
 
-		String path = "C:\\Users\\darke.rangel\\Documents\\test.txt";
+		String path = "c:\\Users\\Darke\\Documents\\in.txt";
 
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			String line = br.readLine();
