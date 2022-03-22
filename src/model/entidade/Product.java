@@ -1,6 +1,8 @@
 package model.entidade;
 
-public class Product {
+import java.util.Objects;
+
+public class Product implements Comparable<Product> {
 
 	private String name;
 	private Double price;
@@ -24,8 +26,36 @@ public class Product {
 	public Double getPrice() {
 		return price;
 	}
-	
+
 	public void setPrice(double price) {
 		this.price = price;
+
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(name, price);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Product other = (Product) obj;
+		return Objects.equals(name, other.name) && Objects.equals(price, other.price);
+	}
+
+	@Override
+	public String toString() {
+		return "Product [name=" + name + ", price=" + price + "]";
+	}
+
+	@Override
+	public int compareTo(Product other) {
+		return name.toUpperCase().compareTo(other.getName().toUpperCase());
 	}
 }
